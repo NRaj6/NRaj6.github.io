@@ -4,7 +4,7 @@
 
   .topnav {
    background-color: #D2FDBB;
-   background-size: 300px 700px;
+   overflow: hidden;
   }
   
 .topnav a {
@@ -16,7 +16,17 @@
   padding-right: 50px;
   font-size: 32px;
   text-decoration: none;
+ }
+
+.topnav a:hover {
+  color: #4D0F28;
 }
+
+.topnav a:visited {
+  color: #4D0F28;
+}
+
+
   
 
 </style>
@@ -25,6 +35,7 @@
  </head>
   
   <body>
+	  
 	<! –– create navigation bar ––>
     <div class="topnav">
 	    <a class="active" href="#home">Home</a>
