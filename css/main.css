@@ -1,4 +1,4 @@
-h1 {
+h1{
   background-color: #b19cd9;
   color: #FFFFFF;
   font-family: "Marker Felt";
@@ -15,7 +15,7 @@ h1 {
    overflow: hidden;
   }
   
-.topnav a {
+.topnav a{
   float: center;
   color: #FFFFFF;
   font-family: "Marker Felt";
@@ -31,7 +31,7 @@ h1 {
   margin: 0 auto;
  }
 
-.topnav a:hover {
+.topnav a:hover{
   color: #4D0F28;
 }
 
