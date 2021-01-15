@@ -34,15 +34,13 @@ h1{
 .topnav a:link{
   color: #FFFFFF;
 }
+
 .topnav a:visited{
   color: #FFFFFF;
 }
 
-.topnav a:hover{
-  color: #4D0F28;
-}
 
-.topnav a:active{
+.topnav a:hover, a:active, a:focus{
   color: #4D0F28;
 }
 
