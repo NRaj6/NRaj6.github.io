@@ -35,6 +35,10 @@ h1{
   color: #4D0F28;
 }
 
+.topnav a:active{
+  color: #4D0F28;
+}
+
 body{
   background-color: #fadadd;
 }
