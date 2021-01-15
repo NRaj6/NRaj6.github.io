@@ -1,1 +1,50 @@
+h1 {
+  background-color: #b19cd9;
+  color: #FFFFFF;
+  font-family: "Marker Felt";
+  font-size: 70px;
+  margin-bottom: 0;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 50px
+  }
+  
+.topnav {
+   background-color: #b19cd9;
+   overflow: hidden;
+  }
+  
+.topnav a {
+  float: center;
+  color: #FFFFFF;
+  font-family: "Marker Felt";
+  padding-top: 90px;
+  padding-bottom: 93px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-left: 0;
+  margin-right: 0;
+  font-size: 32px;
+  text-decoration: none;
+  text-align: center;
+  margin: 0 auto;
+ }
+
+.topnav a:hover {
+  color: #4D0F28;
+}
+
+body{
+  background-color: #fadadd;
+}
+
+
+   
+   
+
+
+
+
+  
 
