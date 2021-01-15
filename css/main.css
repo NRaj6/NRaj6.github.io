@@ -31,6 +31,13 @@ h1{
   margin: 0 auto;
  }
 
+.topnav a:link{
+  color: #FFFFFF;
+}
+.topnav a:visited{
+  color: #FFFFFF;
+}
+
 .topnav a:hover{
   color: #4D0F28;
 }
