@@ -40,7 +40,15 @@ p3{
 	<! –– create navigation bar ––>
     <div class="topnav">
 	    <a class="active" href="#home">Home</a>
-	    <a href="html/projecthome.html">Projects</a>
+	    <div class="dropdown">
+	     <button onclick="window.location.href='html/projecthome.html';" class="dropbtn">Projects</button>
+	     <div class="dropdown-content">
+		     <a href="html/hardware_projects.html">Hardware</a>
+		     <a href="html/software_projects.html">Software</a>
+		     <a href="#data">Data</a>
+	     </div>
+	    </div>
+	    <! -- <a href="html/projecthome.html">Projects</a> -->
 	    <a href="#resume">Resume</a>
 	    <a href="html/contact.html">Contact</a>
     </div>
