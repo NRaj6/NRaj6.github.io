@@ -1,1 +1,108 @@
+<DOCTYPE html>
+<head>
+      <style>
+      * {
+  box-sizing: border-box;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+            
+
+
+
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+            
+      </style>
+      <link rel="stylesheet" type="text/css" href="../css/main.css" />
+      <title>Hardware Projects</title>
+</head>
+
+<body>
+<h1>Hardware Projects</h1>
+    <div class="topnav">
+      <a href="../index.html">Home</a>
+      <a href="projecthome.html">Projects</a>
+      <a href="#resume">Resume</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    
+<div class="main">
+
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="../pics/simple_led.jpeg" alt="SimpleLED" style="width:100%">
+      <h3>AAPI Resource Map</h3>
+      <p>I created an interactive map using Python's geopandas, pandas, matplotlib, and folium libraries to map various AAPI-supportive organizations in North Carolina for the DiamondHacks 2021 hackathon.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="../pics/speaker_circuit.PNG" alt="Speaker" style="width:100%">
+      <h3>Simple Speaker Circuit</h3>
+      <p>This circuit, given a sound file in .wav format, outputs the audio in an audible form. This is accomplished by series-connecting a capacitor to the speaker; this "cleans up" the sound signal by filtering out interference from its DC component, leaving only the AC component to be blasted by the speaker.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="../pics/bandpass_filter.png" alt="Filter" style="width:100%">
+      <h3>High, Low, and Band Pass Filter</h3>
+      <p>This circuit could serve as a high, low, or band-pass filter. High-pass filters only pass frequencies above a certain threshold in a given signal; low-pass filters only below a threshold; and band-pass between two specified cutoff frequencies. These filters are often used in audio systems to amplify or purify certain sounds. In this circuit, I used an op-amp as well as several resistors and capacitors. In the image above, the circuit is in band-pass form; however, with a simple rearrangment of some of the jumper wires, a high- or low-pass filter can be constructed as well.</p>
+    </div>
+  </div>
+<!-- END OF GRID -->
+</div>
+<!-- END OF MAIN -->
+</div>
+    
+</body>
+</html>
 
