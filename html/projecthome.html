@@ -1,45 +1,54 @@
 <DOCTYPE html>
   <head>
+    <style>
+    .column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
 
-
-    <link rel="stylesheet" type="text/css" href="../css/main.css" />
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+   </style>
+  <link rel="stylesheet" type="text/css" href="../css/main.css" />
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
-    <title>Projects</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact</title>
   </head>
   
   <body>
-    <h1>Projects</h1>
+    <h1>Contact</h1>
     <div class="topnav">
-      <a href="../index.html">Home</a>
-      <a class="active" href="#projects">Projects</a>
-      <a href="#resume">Resume</a>
-      <a href="contact.html">Contact</a>
+	    <a href="../index.html">Home</a>
+	    <a href="projecthome.html">Projects</a>
+	    <a href="#resume">Resume</a>
+	    <a class="active" href="#contact">Contact</a>
     </div>
-    
-
-    <a href = "hardware_projects.html"><img src="../pics/cchip.png" align="center" style="padding-top: 50px;">
-        </div>
-         </a>
-        <a href = "hardware_projects.html">
-          Hardware
-        </a>
+    <div clas="row">
+    <div class="column">
+    <a href="mailto:nlrajara@ncsu.edu" target="_blank">
+    <i class="fas fa-dragon" align="left" style="padding-top: 75px; padding-left: 30px; font-size:350px;color:#b19cd9"></i>
+    </a>
     </div>
- 
-   <a href = "software_projects.html"><img src="../pics/software.png" align="center" style="padding-top: 50px;">
-        </div>
-         </a>
-        <a href = "software_projects.html">
-          Software
-        </a>
+    <div class="column">
+    <a href="https://www.linkedin.com/in/nrajaraman/" target="_blank">
+    <i class="fas fa-cat" align="center" style="padding-top: 75px; padding-left: 30px; font-size:350px; color:#b19cd9"></i>
+    </a>
+    </div>
+    <div clas="column">
+    <a href="https://github.com/NRaj6" target="_blank">
+    <i class='fas fa-clock' align="right" style="padding-top: 75px; padding-left: 30px; font-size:350px;color:#b19cd9"></i>
+    </a>
    </div>
-   <a href = "data.html"><img src="../pics/data.png" align="center" style="padding-top: 50px;">
-        </div>
-         </a>
-        <a href = "data_projects.html">
-          Software
-        </a>
    </div>
+  </body>
+      
 
+</html>
     
     
 
